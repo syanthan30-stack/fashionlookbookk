@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="sectionhome">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <a class="navbar-brand main-heading" href="#">Fashion Book</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto home-section">
+                    <a class="nav-link active" href="#" onclick="display('sectionhome')">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#" onclick="display('sectionexplore')">Category </a>
+                    <a class="nav-link" href="#">Team members</a>
+                    <a class="nav-link" href="#">Support Us</a>
+                </div>
+            </div>
+        </nav>
+        <div class="main-background d-flex flex-column justify-content-end">
+            <video src="/WhatsApp Video 2025-11-22 at 16.19.54_284bb08a.mp4" id="background-video" autoplay muted loop ></video>
+            <div class="inside-head ">
+                <h3>We Give The Best Collection For You</h3>
+            </div>
+            <div class="text-center">
+                <button class="buttu" onclick="display('sectionexplore')">Explore Now</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionexplore" class="explorepage">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 col-md-6 mt-5">
+                    <a href="#sectionwomen"> <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D" class="photo1" onclick="display('sectionwomen')" /></a>
+                    <h3 class="women-head">Womens</h3>
+                </div>
+                <div class="col-12 col-md-6  mt-5">
+                    <img src="https://i.pinimg.com/originals/61/68/60/6168609c92b3c2c3f1007b40886ca46b.jpg" class="photo1" onclick="display('sectionmen')" />
+                    <h3 class="women-head">Mens</h3>
+                </div>
+                <div class="col-12 col-md-6  mt-5">
+                    <img src="https://i.pinimg.com/736x/47/b2/2d/47b22d03d8f64a595019aad38562da3e.jpg" onclick="display('sectionfootwear')" class="photo1" />
+                    <h3 class="women-head">FootWear</h3>
+                </div>
+                <div class="col-12 col-md-6 mt-5">
+                    <img src="https://i.pinimg.com/736x/12/7c/35/127c35b3683c8ced48cdddb45d646f7d.jpg" onclick="display('sectionaccessories')" class="photo1" />
+                    <h3 class="women-head">Accessories </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionwomen">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <img src="https://i.pinimg.com/236x/bb/22/e2/bb22e20ded7684dd0d8052957663f0d2.jpg" onclick="display('sectionmen-womencollegeoutfit')" class="photo1" />
+                    <h3 class="college-outfits">College Outfits</h3>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="https://www.nameerabyfarooq.com/cdn/shop/products/IndianWeddingPartyDressinSilverLongFrock_620x.jpg?v=1647688737" onclick="display('sectionmen-traditionalwear')"  class="photo1" />
+                    <h3 class="college-outfits">Traditional Wear</h3>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="https://i.pinimg.com/564x/a0/04/29/a0042948a5b268692ad8d4ce1af6ff17.jpg" onclick="display('sectionmen-partywear')"  class="photo1" />
+                    <h3 class="college-outfits">Party Wear</h3>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="https://i.pinimg.com/736x/21/42/69/21426955a4416684309d398bd73049b5.jpg" onclick="display('sectionmen-streetwear')"  class="photo1" />
+                    <h3 class="college-outfits">Street Wear</h3>
+                </div>
+                <div class="col-12 d-flex flex-row justify-content-center">
+                    <button class="inside-button" onclick="display('sectionexplore')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionmen">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <img src="https://i.pinimg.com/236x/95/5d/a9/955da956c55d80e34e1ebf0b15074c24.jpg" onclick="display('sectionmen-collegeoutfits')" class="photo1" />
+                    <h3 class="college-outfits">College Outfits</h3>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="https://cdn.gulte.com/wp-content/uploads/2024/07/Anant-Ambani-595x1024.jpeg" onclick="display('sectionmen-ethnicwear')" class="photo1" />
+                    <h3 class="college-outfits">Ethnic Wear</h3>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="https://i.pinimg.com/736x/39/9f/a4/399fa4ee6b48d782ab3d32af424b7a03.jpg" onclick="display('sectionmen-oldmoney')" class="photo1" />
+                    <h3 class="college-outfits">Old Money</h3>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="https://i.pinimg.com/736x/d8/5c/41/d85c41c5961395fe418a69f794ccb997.jpg" onclick="display('sectionmen-formalwear')" class="photo1" />
+                    <h3 class="college-outfits">Formal Wear</h3>
+                </div>
+                <div class="col-12 d-flex flex-row justify-content-center">
+                    <button class="inside-button" onclick="display('sectionexplore')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionfootwear">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <img src="https://www.jagranimages.com/images/newimg/25072023/25_07_2023-best_nike_sneakers_for_men_23481895.jpg" onclick="display('sectionmen-sneakers')" class="photo1" />
+                    <h3 class="college-outfits">Sneakers</h3>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="https://rukminim2.flixcart.com/image/480/640/xif0q/shoe/v/l/e/7-rodm-127-roadster-brown-original-imah4zkhdfjsdtwd.jpeg?q=90" onclick="display('sectionmen-shoesformalwear')" c class="photo1" />
+                    <h3 class="college-outfits">Formal Shoes</h3>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTzaGneybvQnv2A6nWGOpfH0rPqfY8bFQnyw&s" onclick="display('sectionmen-womanfootwear')" class="photo1" />
+                    <h3 class="college-outfits">Women Footwear</h3>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="https://www.rajashoes.in/VendorAssets/1029/StoreImages/Large/19INTRLK-LITEWHITE.jpg" onclick="display('sectionmen-sportshoes')" class="photo1" />
+                    <h3 class="college-outfits">Sports Wear</h3>
+                </div>
+                <div class="col-12 d-flex flex-row justify-content-center ">
+                    <button class="inside-button" onclick="display('sectionexplore')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionaccessories">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <img src="https://rukminim2.flixcart.com/image/480/640/xif0q/watch/e/f/4/-original-imahggemfqbn79nd.jpeg?q=90" onclick="display('sectionmen-watches')" class="photo1" />
+                    <h3 class="college-outfits">Watches</h3>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScZ-k3GoA5cNdan0HO_ZGy8aVTcJ6PCqADYQ&s" onclick="display('sectionmen-watches')" class="photo1" />
+                    <h3 class="college-outfits">Jewellary</h3>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="https://assets-jiocdn.ajio.com/medias/sys_master/root/20240123/6sLY/65af9d388cdf1e0df5c60838/-473Wx593H-467004267-black-MODEL.jpg" onclick="display('sectionmen-sunglasses')" class="photo1" />
+                    <h3 class="college-outfits">Sunglasses & Caps</h3>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="https://assets-jiocdn.ajio.com/medias/sys_master/root/20250425/fxnj/680b5e4b55340d4b4ffade6e/-473Wx593H-700937391-tan-MODEL.jpg"  onclick="display('sectionmen-handbags')" class="photo1" />
+                    <h3 class="college-outfits">Handbags</h3>
+                </div>
+                <div class="col-12 d-flex flex-row justify-content-center">
+                    <button class="inside-button" onclick="display('sectionexplore')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionmen-collegeoutfits">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <a href="https://www.thesouledstore.com/product/solids-sky-blue-cotton-linen-shirts?gte=1" target="_blank"><img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1716009254_7300840.jpg?w=480&dpr=2" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.thesouledstore.com/product/solids-maroon-shirts?gte=1" target="_blank"><img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1713860734_6695773.jpg?w=480&dpr=2" class="photo2" /></a>
+
+                </div>
+                <div class="col-6">
+                    <a href="https://www.thesouledstore.com/product/solids-olive-green-men-cotton-linen-shirts?gte=1" target="_blank"><img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1726832802_1594994.jpg?w=480&dpr=2" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.thesouledstore.com/product/plaid-shirt-canvas-men-relaxed-shirts?gte=1" target="_blank"><img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1758785276_3428725.jpg?w=480&dpr=2" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.thesouledstore.com/product/textured-magnum-knit-shirts?gte=1" target="_blank"><img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1758348945_7415546.jpg?w=480&dpr=2" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.thesouledstore.com/product/men-solids-shirts-twilight?gte=1" target="_blank"><img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1747759802_6308885.jpg?w=480&dpr=2" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.thesouledstore.com/product/plaids-black-white-men-relaxed-shirts?gte=1" target="_blank"><img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1717865946_4111532.jpg?w=480&dpr=2" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.thesouledstore.com/product/tss-originals-brown-men-utility-shirts?gte=1" target="_blank"><img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1753702632_8534054.jpg?w=480&dpr=2" class="photo2" /></a>
+                </div>
+                <div class="col-12 d-flex flex-row justify-content-center">
+                    <button class="inside-button " onclick="display('sectionmen')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionmen-ethnicwear">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <a href="https://www.ajio.com/kisah-men-chevron-print-regular-fit-sherwani-set/p/467280050_black" target="_blank"><img src="https://assets-jiocdn.ajio.com/medias/sys_master/root1/20250918/tWzY/68cc16a13d468c61ab06c2da/-473Wx593H-467280050-black-MODEL5.jpg" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ajio.com/kisah-men-self-design-sherwani-set/p/701344751_navy" target="_blank"><img src="https://assets-jiocdn.ajio.com/medias/sys_master/root/20250317/3gMq/67d7f84859f83539803de135/-473Wx593H-701344751-navy-MODEL.jpg" class="photo2" /></a>
+
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ajio.com/vastramay-men-self-design-sherwani-set/p/702341999_white" target="_blank"><img src="https://assets-jiocdn.ajio.com/medias/sys_master/root1/20250930/6gO6/68dbbd1f3d468c61ab3cc53a/-473Wx593H-702341999-white-MODEL.jpg" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ajio.com/jompers-printed-silk-blend-straight-kurta/p/701828459_purple?" target="_blank"><img src="https://assets-jiocdn.ajio.com/medias/sys_master/root1/20251106/zD3z/690ca99ba470c5082f754309/-473Wx593H-701828459-purple-MODEL2.jpg" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ajio.com/jompers-men-ethnic-printed-kurta/p/701819769_black" target="_blank"><img src="https://assets-jiocdn.ajio.com/medias/sys_master/root1/20251106/5Ugq/690ccbc288d6d62ff8ce0166/-473Wx593H-701819769-black-MODEL2.jpg" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ajio.com/jompers-men-regular-fit-3-piece-suit-set/p/700302959_brown?" target="_blank"><img src="https://assets-jiocdn.ajio.com/medias/sys_master/root1/20251106/271B/690c99e888d6d62ff8ca2e74/-473Wx593H-700302959-brown-MODEL.jpg" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ajio.com/vastramay-men-embellished--embroidery-sherwani-set/p/700924202_black?" target="_blank"><img src="https://assets-jiocdn.ajio.com/medias/sys_master/root/20241215/9Rdc/675e99320f47f80c87fc6a7c/-473Wx593H-700924202-black-MODEL2.jpg" class="photo2" /></a>
+                </div>
+                <div class="col-6 col-md-6">
+                    <a href="https://www.ajio.com/ramraj-cotton-men-cotton-dhoti/p/701327626_black?" target="_blank"><img src="https://assets-jiocdn.ajio.com/medias/sys_master/root/20250312/TX46/67d0bb782960820c49e49b58/-473Wx593H-701327626-black-MODEL.jpg" class="photo2" /></a>
+                </div>
+                <div class="col-12 d-flex flex-row justify-content-center">
+                    <button class="inside-button " onclick="display('sectionmen')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionmen-formalwear">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/tuxedo-jacket-in-grain-de-poudre-844999Y7E631000.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/363d04944f246b2d/Medium2-844999Y7E631000_A.jpg?v=2" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/jacket-in-brushed-herringbone-wool-837196Y3D061071.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/7fc06cb41b2008f4/Medium2-837196Y3D061071_A.jpg?v=3" class="photo2" /></a>
+
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/jacket-in-wool-835102Y5K324140.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/6ec86ead7d9b76d6/Medium2-835102Y5K324140_A.jpg?v=2" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/long-coat-in-wool-845729Y060R1005.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/471d2a606c5f7b4c/Medium2-845729Y060R1005_A.jpg?v=2" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/long-coat-in-wool-835633Y2M549315.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/4d8fe6dfc3a2385a/Medium2-835633Y2M549315_A.jpg?v=1" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/low-waisted-pants-in-wool-chine-844724Y2J021000.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/4ac0c3974446e30b/eCom-844724Y2J021000_A.jpg?v=1" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ralphlauren.global/in/en/classic-fit-poplin-french-cuff-shirt-100047436.html#prefn1=CategoryCode&prefv1=Formal%2520Shirts&allRefinementsRemoved=true&start=1" target="_blank"><img src="https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-AI712966312001_alternate10?$rl_4x5_pdp$" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ralphlauren.global/in/en/custom-fit-striped-poplin-shirt-100032765.html#prefn1=CategoryCode&prefv1=Formal%2520Shirts&allRefinementsRemoved=true&start=1" target="_blank"><img src="https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-AI712922575001_alternate10?$rl_4x5_pdp$" class="photo2" /></a>
+                </div>
+                <div class="col-12 d-flex flex-row justify-content-center">
+                    <button class="inside-button " onclick="display('sectionmen')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionmen-oldmoney">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/striped-shirt-819096Y1L046403.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/73bd2387f10bf0de/Medium2-819096Y1L046403_A.jpg?v=2" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/cassandre-shirt-in-striped-silk-819509Y4K761095.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/45c9583a6dbda448/Medium2-819509Y4K761095_A.jpg?v=2" class="photo2" /></a>
+
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/embroidered-overshirt-in-wool-check-848184Y2M333046.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/29a434597a827aac/Medium2-848184Y2M333046_A.jpg?v=3" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/shirt-in-square-silk-832989Y6K124013.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/455fd94f81bdd1c8/Medium2-832989Y6K124013_A.jpg?v=2" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/cassandre-shirt-in-striped-cotton-poplin-823194Y6E779260.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/6996c4f2ecbcc43a/Medium2-823194Y6E779260_A.jpg?v=2" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.bewakoof.com/p/mens-beige-blue-textured-oversized-crochet-shirt" target="_blank"><img src="https://images.bewakoof.com/t1080/men-s-off-white-beige-textured-oversized-crochet-shirt-685478-1762422512-1.jpg" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/cassandre-shirt-in-striped-cotton-848033Y7K191332.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/3ad4469338b0f919/Medium2-848033Y7K191332_A.jpg?v=3" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.bewakoof.com/p/mens-red-checked-oversized-shirt-red" target="_blank"><img src="https://images.bewakoof.com/t1080/men-s-red-checked-oversized-shirt-652626-1736312507-5.jpg" class="photo2" /></a>
+                </div>
+                <div class="col-12 d-flex flex-row justify-content-center">
+                    <button class="inside-button " onclick="display('sectionmen')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionmen-sneakers">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <a href="https://www.nike.com/in/t/air-force-1-07-lv8-shoes-60QXmC/IB6388-001" target="_blank"><img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/190e6181-0849-4acd-b053-44ead93851e7/AIR+FORCE+1+%2707+LV8.png" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://in.puma.com/in/en/pd/court-shatter-mens-sportstyle-sneakers/402185?swatch=02" target="_blank"><img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_750,h_750/global/402185/02/sv04/fnd/IND/fmt/png/Court-Shatter-Men's-Sportstyle-Sneakers" class="photo2" /></a>
+
+                </div>
+                <div class="col-6">
+                    <a href="https://www.nike.com/in/t/air-force-1-mid-shoe-Zt4QFg/715889-200" target="_blank"><img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/e0e22550-9793-44f6-8541-b450b97f18c9/AIR+FORCE+1+MID+%2707+PRM+QS.png" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://in.puma.com/in/en/pd/court-shatter-mens-sportstyle-sneakers/402185?swatch=01" target="_blank"><img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_750,h_750/global/402185/01/fnd/IND/fmt/png/Court-Shatter-Men's-Sportstyle-Sneakers" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.thesouledstore.com/product/top-gun-maverick-kicks-men-high-top-sneakers?gte=1" target="_blank"><img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1711641966_1284271.jpg?w=480&dpr=2" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.adidas.co.in/lightblaze-glow-shoes/JP6328.html" target="_blank"><img src="https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/d24d3413569a44faaa68db406c3345b7_9366/Lightblaze_Glow_Shoes_White_JP6328_HM1.jpg" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.nike.com/in/t/air-force-1-07-shoes-lSAF7H9U/IM6364-400" target="_blank"><img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/fe6f7af6-a91d-493a-8147-ae748856759e/W+AIR+FORCE+1+%2707.png" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.nike.com/in/t/sb-zoom-blazer-mid-skate-shoes-jnRhm3/FD0731-100" target="_blank"><img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/5d4a6be3-1b4b-42c5-bf68-074c0c8bdaba/NIKE+SB+ZOOM+BLAZER+MID.png" class="photo2" /></a>
+                </div>
+                <div class="col-12 d-flex flex-row justify-content-center">
+                    <button class="inside-button " onclick="display('sectionfootwear')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionmen-shoesformalwear">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <a href="https://www.bata.com/in/red-label-slip-on-casual-shoes-for-men-500_0RL8540810248F.html?dwvar_500__0RL8540810248F_color=601" target="_blank"><img src="https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwfd51f75f/images/large/8546081_1.jpeg?sw=920" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/le-loafer-supple-in-eel-8213780WXAF2725.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/5e317a9b7d2c5ccb/Medium2-8213780WXAF2725_A.jpg?v=5" class="photo2" /></a>
+
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/le-loafer-supple-in-suede-8168122W5AC9808.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/58dc659a1aced582/Medium2-8168122W5AC9808_A.jpg?v=6" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.bata.com/in/bata-formal-slip-on-shoes-for-men-500_0BA8516380110F.html?dwvar_500__0BA8516380110F_color=601" target="_blank"><img src="https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw5698f348/images/large/8516638_2.jpeg?sw=920" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/adrien-chelsea-boots-in-box-saint-laurent-leather-837991AAE5G1000.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/1a72d8dff60402f1/Medium2-837991AAE5G1000_A.jpg?v=2" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/wyatt-chelsea-boots-in-suede-818318AADXB6023.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/2252f04caf0674e3/Medium2-818318AADXB6023_A.jpg?v=3" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/wyatt-harness-boots-in-smooth-leather-6813311YL001000.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/492748663017d420/Medium2-6813311YL001000_A.jpg?v=2" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/gabriel-derbies-in-patent-leather-7561801TV001000.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/57636dcc8fce10a7/eCom-7561801TV001000_B.jpg?v=3" class="photo2" /></a>
+                </div>
+                <div class="col-12 d-flex flex-row justify-content-center">
+                    <button class="inside-button " onclick="display('sectionfootwear')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionmen-womanfootwear">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/debbie-platform-sandals-in-smooth-leather-825303AACSQ2603.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/57d9ecba009210bc/Medium2-825303AACSQ2603_A.jpg?v=2" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/chandelle-sandals-in-satin-crepe-8427109QNAO1000.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/3d2b09bff75c548b/Medium2-8427109QNAO1000_A.jpg?v=1" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/jill-booties-in-smooth-leather-839843AAE7L9615.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/34597702b591727c/Medium2-839843AAE7L9615_A.jpg?v=2" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/jill-booties-in-smooth-leather-806671AADGZ2226.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/5b11f3261a45fe94/Medium2-806671AADGZ2226_A.jpg?v=2" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/francoise-boots-in-smooth-leather-841574AAE611000.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/43d91385f2da8e26/Medium2-841574AAE611000_A.jpg?v=1" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/nico-platform-booties-in-suede-8406720LI002330.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/7901ae2d814ca21d/Medium2-8406720LI002330_A.jpg?v=3" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/jill-mules-in-leopard-grosgrain-825270AAESW2094.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/46f87331b3c15909/Medium2-825270AAESW2094_A.jpg?v=1" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/anne-marie-slingback-pumps-in-smooth-leather-841183AAEHI6629.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/7c534a0aec52edfa/Medium2-841183AAEHI6629_A.jpg?v=1" class="photo2" /></a>
+                </div>
+                <div class="col-12 d-flex flex-row justify-content-center">
+                    <button class="inside-button " onclick="display('sectionfootwear')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionmen-sportshoes">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <a href="https://www.underarmour.in/ua-men-s-charged-assert-10-camo-shoes.html?color=685705&size=165761" target="_blank"><img src="https://www.underarmour.in/media/catalog/product/cache/94aed228cda806fc9e3c8a7bf666ca42/3/0/3027036-300-11-120250916151125291.jpg" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.underarmour.in/ua-women-s-charged-versurge-shoes.html?color=1541781&size=165781" target="_blank"><img src="https://www.underarmour.in/media/catalog/product/cache/94aed228cda806fc9e3c8a7bf666ca42/3/0/3028406-464-7.5-120250925110502302.jpg" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.underarmour.in/ua-velociti-pro.html?color=1540774&size=166020" target="_blank"><img src="https://www.underarmour.in/media/catalog/product/cache/94aed228cda806fc9e3c8a7bf666ca42/1/4/14.5-120250814062240158.jpg" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.underarmour.in/ua-men-s-street-mirage-shoes.html?color=1540852&size=165761" target="_blank"><img src="https://www.underarmour.in/media/catalog/product/cache/94aed228cda806fc9e3c8a7bf666ca42/3/0/3028378-279-11-120250821131543394.jpg" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.underarmour.in/ua-women-s-edge-suede-training-shoes.html?color=1540861&size=165774" target="_blank"><img src="https://www.underarmour.in/media/catalog/product/cache/94aed228cda806fc9e3c8a7bf666ca42/6/0/6003014-014-10.5-120250821133536863.jpg" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.underarmour.in/ua-women-s-edge-leather-training-shoes.html?color=1540555&size=165781" target="_blank"><img src="https://www.underarmour.in/media/catalog/product/cache/94aed228cda806fc9e3c8a7bf666ca42/3/0/3028569-110-7.5-120250804084105237.jpg" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.nike.com/in/t/pegasus-road-running-shoes-9XMSK0/HQ2593-102" target="_blank"><img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/990af21c-b226-420f-b5d3-84f11a5bc14f/W+NIKE+PEGASUS+PREMIUM.png" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.nike.com/in/t/vomero-plus-road-running-shoes-sBieAqOJ/HV8150-002" target="_blank"><img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/a259210b-25bb-4816-8012-740f57caa82d/NIKE+VOMERO+PLUS.png" class="photo2" /></a>
+                </div>
+                <div class="col-12 d-flex flex-row justify-content-center">
+                    <button class="inside-button " onclick="display('sectionfootwear')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionmen-womencollegeoutfit">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <a href="https://www.nykaafashion.com/janasya-womens-green-chiffon-lurex-floral-printed-flared-kurta/p/19529504" target="_blank"><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/d/fd974bfJAC24KR01836_3.jpg?rnd=20200526195200&tr=w-256" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ajio.com/dmunesh-fashion-women-embroidery-kurta-set/p/702002249_wine?" target="_blank"><img src="https://assets-jiocdn.ajio.com/medias/sys_master/root1/20250721/6JQJ/687e75475d4cb4138044e71e/-473Wx593H-702002249-wine-MODEL3.jpg" class="photo2" /></a>
+
+                </div>
+                <div class="col-6">
+                    <a href="https://www.nykaafashion.com/kaftanize-blue-base-color-with-color-all-over-abstract-floral-print-short-kurti/p/22528986" target="_blank"><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/2/12682c3KR1584_1.jpg?rnd=20200526195200&tr=w-256" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ajio.com/nyrika-women-printed-flared-kurta-suit-set/p/701093263_maroon?" target="_blank"><img src="https://assets-jiocdn.ajio.com/medias/sys_master/root/20250123/ihho/67921aef0431850e0dbb39f0/-473Wx593H-701093263-maroon-MODEL.jpg" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.nykaafashion.com/likha-blue-bandhani-printed-a-line-kurta-aw23likbnd253a/p/12588694" target="_blank"><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/0/30aca47AW23LIKBND253A_2.jpg?rnd=20200526195200&tr=w-256" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.nykaafashion.com/aurelia-blue-floral-printed-straight-kurti/p/18618503" target="_blank"><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/38c7c0c24NOA30491-508409-Grey_2.jpg?rnd=20200526195200&tr=w-256" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.nykaafashion.com/house-of-kari-kashmiri-aari-work-cotton-kurti-white/p/19062516" target="_blank"><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/e/2e4208211White_1.jpg?rnd=20200526195200&tr=w-256" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.nykaafashion.com/anuvas-keya-chandheri-beige-kurta-only/p/17549811" target="_blank"><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/f/5f42de6AUG24-K11-XS_1.jpg?rnd=20200526195200&tr=w-256" class="photo2" /></a>
+                </div>
+                <div class="col-12 d-flex flex-row justify-content-center">
+                    <button class="inside-button " onclick="display('sectionwomen')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionmen-traditionalwear">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <a href="https://www.nykaafashion.com/lush-glam-purple-timeless-jacquard-saree-with-unstitched-blouse-with-unstitched/p/21112383" target="_blank"><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/9/89726a2VP6105_1.jpg?rnd=20200526195200&tr=w-256" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.nykaafashion.com/mabish-by-sonal-jain-yellow-flare-kurta-with-dhoti-pants-set-of-2/p/18431705" target="_blank"><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/4/a4b5f74TP0559JQYE_1.jpg?rnd=20200526195200&tr=w-256" class="photo2" /></a>
+
+                </div>
+                <div class="col-6">
+                    <a href="https://www.nykaafashion.com/house-of-jamoti-wisteria-purple-pre-draped-saree-with-stitched/p/17801383" target="_blank"><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/9/39e6e16223000_1.jpg?rnd=20200526195200&tr=w-256" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.nykaafashion.com/jatriqq-off-white-jacquard-chex-zari-stitched-lehenga-with-dupatta-unstitched-blouse-set-of-3/p/20972813" target="_blank"><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/2/6205e79JQLNB2011OFFWHITE_1.jpg?rnd=20200526195200&tr=w-256" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.nykaafashion.com/akhilam-women-s-mysore-silk-burgundy-woven-design-saree-with-unstitched-blouse/p/21850358" target="_blank"><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a37b6efKUSUM1601NSM_1.jpg?rnd=20200526195200&tr=w-256" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.nykaafashion.com/mysilklove-mantis-green-woven-maheshwari-saree-with-unstitched-blouse/p/20212366" target="_blank"><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/f/6fe1c4aMSLRJPSHINE960005_1.jpg?rnd=20200526195200&tr=w-256" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.nykaafashion.com/jatriqq-south-style-cream-kanchipuram-silk-lehenga-unstitched-blouse-with-dupatta/p/16658464" target="_blank"><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/3/9321a19JQ-LNB-2001-CREAM_1.jpg?rnd=20200526195200&tr=w-256" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.nykaafashion.com/baidehi-deep-red-embroidered-gown-with-attached-drape/p/19067245" target="_blank"><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/0/a0a3df8BDSBD136_1.jpg?rnd=20200526195200&tr=w-256" class="photo2" /></a>
+                </div>
+                <div class="col-12 d-flex flex-row justify-content-center">
+                    <button class="inside-button " onclick="display('sectionwomen')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionmen-partywear">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <a href="https://littleboxindia.com/collections/party-wear-dresses/products/vanilla-square-neck-cap-sleeve-bodycon-midi-dress" target="_blank"><img src="https://littleboxindia.com/cdn/shop/files/Vanilla_Square_Neck_Cap_Sleeve_Bodycon_Midi_Dress_720x.webp?v=1754895962" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://littleboxindia.com/collections/party-wear-dresses/products/spaghetti-strap-fit-flare-sleeveless-midi-dress-in-burgundy" target="_blank"><img src="https://littleboxindia.com/cdn/shop/files/Spaghetti_Strap_Fit_Flare_Sleeveless_Midi_Dress_in_Burgundy.webp?v=1757682567" class="photo2" /></a>
+
+                </div>
+                <div class="col-6">
+                    <a href="https://littleboxindia.com/collections/maxi-dresses/products/round-neck-sleeveless-a-line-maxi-dress-in-burgundy-without-belt" target="_blank"><img src="https://littleboxindia.com/cdn/shop/files/6710af76192c3433763ce9299c93576c.webp?v=1761030243" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://littleboxindia.com/collections/dresses/products/square-neck-sleeveless-flared-maxi-dress-in-black target=" target="_blank"><img src="https://littleboxindia.com/cdn/shop/files/Square_Neck_Sleeveless_Flared_Maxi_Dress_in_Black_720x.webp?v=1757929268" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://littleboxindia.com/collections/dresses/products/mocha-puff-sleeve-a-line-midi-dress" target="_blank"><img src="https://littleboxindia.com/cdn/shop/files/4be1960ae9b5d960247374a74737da01_720x.webp?v=1757681523" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://littleboxindia.com/collections/dresses/products/solid-ruched-square-neckline-ruffle-maxi-dress" target="_blank"><img src="https://littleboxindia.com/cdn/shop/files/Solid_Ruched_Square_Neckline_Ruffle_Maxi_Dress_720x.jpg?v=1741077849" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://littleboxindia.com/collections/dresses/products/ruched-full-sleeve-bodycon-midi-dress-in-red" target="_blank"><img src="https://littleboxindia.com/cdn/shop/files/e05e0f08373b9c2fa26c4aa8e6a07a78_720x.webp?v=1762755031https://littleboxindia.com/cdn/shop/files/e05e0f08373b9c2fa26c4aa8e6a07a78_720x.webp?v=1762755031https://littleboxindia.com/cdn/shop/files/e05e0f08373b9c2fa26c4aa8e6a07a78_720x.webp?v=1762755031" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://littleboxindia.com/collections/dresses/products/back-tie-halter-neck-gathered-midi-dress-in-powder-pink" target="_blank"><img src="https://littleboxindia.com/cdn/shop/files/Back_Tie_Halter_Neck_Gathered_Midi_Dress_in_Powder_Pink_720x.webp?v=1755328144" class="photo2" /></a>
+                </div>
+                <div class="col-12 d-flex flex-row justify-content-center">
+                    <button class="inside-button " onclick="display('sectionwomen')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionmen-streetwear">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <a href="https://www.thesouledstore.com/product/mean-girls-a-little-dramatic-women-cropped-tops?gte=2" target="_blank"><img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1688364498_3209822.jpg?w=480&dpr=2" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.thesouledstore.com/product/mean-girls-a-little-dramatic-women-cropped-tops?gte=2" target="_blank"><img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1713343328_4229571.jpg?w=480&dpr=2" class="photo2" /></a>
+
+                </div>
+                <div class="col-6">
+                    <a href="https://www.thesouledstore.com/product/mickey-mouse-paisley-pattern-women-cropped-tops?gte=2" target="_blank"><img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1691039635_6429325.jpg?w=480&dpr=2" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.thesouledstore.com/product/jacquard-sweater-women-sweaters?gte=1" target="_blank"><img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1761746120_6261381.jpg?w=480&dpr=2" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.thesouledstore.com/product/cable-knit-sweater-hazel-women-sweaters?gte=1" target="_blank"><img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1762251361_7619556.jpg?w=480&dpr=2" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.thesouledstore.com/product/baggy-denim-midnight-women-jeans?gte=1" target="_blank"><img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1762576461_3686993.jpg?w=480&dpr=2" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.thesouledstore.com/product/denim-iceberg-blue-women-pants?gte=2" target="_blank"><img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1741240428_8532576.jpg?w=480&dpr=2" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.thesouledstore.com/product/solids-raven-women-jeans?gte=2" target="_blank"><img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1732516901_9691538.jpg?w=480&dpr=2" class="photo2" /></a>
+                </div>
+                <div class="col-12 d-flex flex-row justify-content-center">
+                    <button class="inside-button " onclick="display('sectionwomen')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionmen-watches">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <a href="https://www.titan.co.in/product/titan-karishma-quartz-analog-green-dial-golden-stainless-steel-strap-watch-for-men-10058ym04.html?lang=en_IN&plp=true&catID=bestsellers" target="_blank"><img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw1b2d42b4/images/Titan/Catalog/10058YM04_1.jpg?sw=115&sh=115" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.armani.com/en-wx/emporio-armani/sea-explorer-automatic-stainless-steel-watch-cod-AR60083-NLP-NLC/" target="_blank"><img src="https://assets-cf.armani.com/image/upload/f_auto,q_auto:best,ar_4:5,w_1350,c_fill/AR60083_NLP_NLC_F_SS2025.jpg" class="photo2" /></a>
+
+                </div>
+                <div class="col-6">
+                    <a href="https://www.armani.com/en-wx/emporio-armani/three-hand-brown-tide-ocean-material-nylon-fabric-watch-cod-AR11655-NLP-NLC/" target="_blank"><img src="https://assets-cf.armani.com/image/upload/f_auto,q_auto:best,ar_4:5,w_1350,c_fill/AR11655_NLP_NLC_F_SS2025.jpg" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ethoswatches.com/favre-leuba-deep-raider-renaissance-00-20308-101-03-200.html"_blank"><img src="https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/f/a/favre-leuba-deep-blue-renaissance-00-20308-101-03-200-large_1.jpg" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ethoswatches.com/product-trilobe-nuit-fantastique-nf05gb.html" target="_blank"><img src="https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/t/r/trilobe-nuit-fantastique-nf05gb-large.jpg" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ethoswatches.com/favre-leuba-sea-sky-reviva-l00-20212-112-02-105.html" target="_blank"><img src="https://cdn1.ethoswatches.com/media/catalog/product/cache/f4d4b206aee1de474fece99d0b788bef/f/a/favre-leuba-sea-sky-reviva-l00-20212-112-02-105-large_1.jpg" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ethoswatches.com/product-muhle-glashutte-teutonia-m1-33-96-200-lb-ii.html" target="_blank"><img src="https://cdn1.ethoswatches.com/media/catalog/product/cache/f4d4b206aee1de474fece99d0b788bef/m/u/muhle-glashutte-teutonia-m1-33-96-200-lb-ii-large.jpg" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                <a href="https://www.ethoswatches.com/product-iwc-portofino-chronograph-iw510106.html" target="_blank"><img src="https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/i/w/iwc-portofino-iw510106-large_1.jpg" class="photo2" /></a>
+                </div>
+                <div class="col-12 d-flex flex-row justify-content-center">
+                    <button class="inside-button " onclick="display('sectionaccessories')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionmen-sunglasses">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/monogram-sl-m40-543513Y99011000.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/1a9879b8015ee20b/Medium2-543513Y99011000_A.jpg?v=11" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/y-varsity-cap-in-gabardine-8168713YR571078.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/4a3303fc11383e97/Medium2-779860Y99561000_A.jpg?v=5" class="photo2" /></a>
+
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/ca/shop-men/accessories/sunglasses" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/54af01a6317038ff/Medium2-822261Y99698033_A.jpg?v=2" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/sl-720-803723Y99561000.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/1d05329f1428cc26/Medium2-803723Y99561000_B.jpg?v=2" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/y-varsity-cap-in-gabardine-8168713YR571078.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/81d1268eaed7b92/Medium2-8168713YR571078_A.jpg?v=2" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/saint-laurent-cap-in-corduroy-8168643YR589200.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/7563a8008757f061/Medium2-8168643YR589200_A.jpg?v=2" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/knitted-cuffed-beanie-in-cashmere-7194173Y2051000.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/5a7607c87791d257/Medium2-7194173Y2051000_A.jpg?v=2" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.ysl.com/en-en/pr/knitted-cuffed-beanie-in-cashmere-7194173Y2059100.html" target="_blank"><img src="https://saint-laurent.dam.kering.com/m/384cac2d32f861df/Medium2-7194173Y2059100_A.jpg?v=2" class="photo2" /></a>
+                </div>
+                <div class="col-12 d-flex flex-row justify-content-center">
+                    <button class="inside-button " onclick="display('sectionaccessories')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionmen-handbags">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <a href="https://uspoloassn.in/collections/handbags/products/womenswear-cathay-monogram-shoulder-bag-rxit39oxz34?variant=46549576876202" target="_blank"><img src="https://uspoloassn.in/cdn/shop/files/2_55dd28ab-8a08-4d57-90a5-4d4c68cb6d93.jpg?v=1744366685" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://uspoloassn.in/collections/handbags/products/womenswear-women-arabella-shoulder-bag-pexcor3zasf?variant=46887992361130" target="_blank"><img src="https://uspoloassn.in/cdn/shop/files/1_06a180f3-90f5-4696-9fda-a54c424319d7.jpg?v=1753443679" class="photo2" /></a>
+
+                </div>
+                <div class="col-6">
+                    <a href="https://uspoloassn.in/collections/handbags/products/womenswear-women-alina-colour-blocked-satchel-bag-tyq3to1zsdz?variant=46887992950954" target="_blank"><img src="https://uspoloassn.in/cdn/shop/files/5_4096e3bf-abd1-4045-bbcc-c60616cbc56c.jpg?v=1754559837" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://uspoloassn.in/collections/handbags/products/womenswear-women-blossom-shoulder-bag-e6ucm3nd9s9?variant=47425858732202" target="_blank"><img src="https://uspoloassn.in/cdn/shop/files/2_8ebd8931-0945-4fc4-b60d-e9b067032857.jpg?v=1758027602" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.zara.com/in/en/tote-bag-p16159610.html?v1=496929477&v2=2417707" target="_blank"><img src="https://static.zara.net/assets/public/079e/d32c/20234d778de9/a51ab110a1f0/16159610800-e1/16159610800-e1.jpg?ts=1761290011722&w=1125" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.zara.com/in/en/flap-shoulder-bag-p16565610.html?v1=481155484&v2=2417737" target="_blank"><img src="https://static.zara.net/assets/public/6c7f/48da/f71642eb9301/54ac42822493/16565510624-000-e1/16565510624-000-e1.jpg?ts=1763393204463&w=1125" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.zara.com/in/en/leather-shoulder-bag-p16453610.html?v1=499735712&v2=2417696" target="_blank"><img src="https://static.zara.net/assets/public/0aad/c0be/eea24459b669/30a4de60f397/16454610721-e1/16454610721-e1.jpg?ts=1762878966447&w=750" class="photo2" /></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://www.zara.com/in/en/crossbody-bag-p16064110.html?v1=464772103&v2=2417696" target="_blank"><img src="https://static.zara.net/assets/public/50bc/1cc7/ad0d4524becf/84196b93aa0e/16064110105-e5/16064110105-e5.jpg?ts=1719394005805&w=750" class="photo2" /></a>
+                </div>
+                <div class="col-12 d-flex flex-row justify-content-center">
+                    <button class="inside-button " onclick="display('sectionaccessories')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+</html>
