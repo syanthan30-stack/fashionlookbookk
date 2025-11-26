@@ -162,3 +162,35 @@ body {
       object-fit: cover;
       z-index: -1; 
     }
+.photo3{
+    height:150px;
+    width: 150px;
+    border-radius: 15px;
+}
+.names{
+    font-size: 20px;
+    text-align: center;
+    font-family: "Georgia";
+    color: white;
+}
+.background-card{
+    background-color: black;
+}
+.support-page{
+    background-image: url("data:image/jpeg;base64,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");
+    background-size: cover;
+    height: 120vh;
+    width: 110vw;
+}
+.space-between{
+    margin: 50px;
+}
+.support-text{
+    color:white;
+    font-size: 30px;
+    padding: 40px;
+    text-align: center;
+    margin-top: 10px;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
